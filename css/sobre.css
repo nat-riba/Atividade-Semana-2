@@ -4,3 +4,23 @@
     padding: 0;
     border: 0;
 }
+
+html {
+    
+}
+
+.navbar {
+    background-color: beige;
+    height: 64px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img {
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+}
