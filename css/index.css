@@ -53,7 +53,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #edf105;
+    background-color: #d6c281;
+    text-align: start;
 }
 
 header {
@@ -64,9 +65,15 @@ header {
 }
 
 .container {
-    max-width: 960px;
-    margin: 20px auto;
-    padding: 0 20px;
+    color:black;
+    display: flex;
+    height: 500px;
+    padding: 35px 26px; 
+    background: linear-gradient(0deg, #ff9a63b0, transparent), url('/Atividade-Semana-2/img/Hotel_Praia.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    justify-content: space-around;
 }
 
 .main-content {
@@ -98,6 +105,26 @@ header {
 .hotel-image img {
     width: 500px;
     height: 300px;
+}
+
+.contato-whatsapp {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    /* Fixa o elemneto na tela */
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+
+}
+.contato-whatsapp img{
+    width: 100%;
+}
+
+.contato-whatsapp:hover{
+    filter:invert(1);
 }
 
 footer {
