@@ -3,9 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/Atividade-Semana-2/img/LogoSnome.png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Sunset Paradise Hotel</title>
+
+    <link rel="stylesheet" href="css/contato.css"/>
 </head>
 <body>
-    
+    <header class="navbar">
+        <figure>
+            <img src="img/Sunset_logo 7.svg" alt="Logo da soulcode">
+        </figure>
+        
+        <nav class="nav-links">
+            <a href="#"> Home &#160</a><pre>-</pre>
+            <a href="#"> Sobre  &#160</a><pre>-</pre>
+            <a href="#"> Contatos &#160</a>
+            <span class="material-symbols-outlined">
+                concierge
+                </span>
+        </nav>
+        
+    </header>
+    <header class="cabecalho">
+
+        <h2 class="titulo">Sunset Paradise Hotel</h2><br>
+        <p class="descricao">Bem-vindo ao Sunset Paradise Hotel ! </p><br>
+        <button class="btn"> <img src="img/PAN_Quarto1.jpg"></button>
+        <button class="btn"> <img src="img/Passeio1_roteiro_alagoas.jpeg"></button>
+        <button class="btn"> <img src="img/PAN_Quarto3.jpg"></button>
+
+    </header>
+    <hr/>
+    <main>
+        <section class="contato-texto">
+            <p>
+                <em>Seu Refúgio de Luxo em Maceió, Brasil.<br/><br/>
+                Localizado nas deslumbrantes praias de Maceió, o Sunset Paradise Hotel é o destino ideal para quem busca um refúgio tropical com todo o conforto e sofisticação. Com vistas espetaculares do Oceano Atlântico e um ambiente que combina o charme local com o luxo contemporâneo, oferecemos uma experiência incomparável para casais, famílias e viajantes solitários.<br/>
+                <br/>
+                Conforto e Sofisticação
+                No Sunset Paradise Hotel, cada detalhe foi cuidadosamente planejado para proporcionar uma estadia inesquecível. Nossos quartos e suítes são elegantemente decorados e equipados com as melhores comodidades, incluindo camas king size, varandas privativas com vista para o mar, Wi-Fi gratuito e muito mais. Aqui, seu conforto é nossa prioridade.<br/>
+                <br/>
+                Experiências Gastronômicas Inigualáveis
+                Descubra uma jornada culinária em nossos restaurantes exclusivos. Oferecemos uma seleção diversificada de pratos que celebram a rica cultura gastronômica do Brasil e a cozinha internacional. Nossos chefs utilizam ingredientes frescos e locais para criar refeições deliciosas que agradarão a todos os paladares. Não perca nossos coquetéis exclusivos enquanto aprecia o pôr do sol no nosso bar da piscina.
+                <br/>
+                Lazer e Aventura
+                No Sunset Paradise Hotel, diversão e relaxamento estão sempre à sua disposição. Desfrute de nossa piscina de borda infinita com vista para o mar, relaxe no spa com tratamentos revitalizantes ou participe de nossas atividades diárias, como aulas de yoga na praia e passeios de barco. Para os mais aventureiros, oferecemos uma variedade de esportes aquáticos, trilhas ecológicas e excursões pelas belezas naturais de Maceió.<br/>
+                <br/>
+                Eventos e Celebrações
+                Transforme seu evento especial em uma ocasião inesquecível no Sunset Paradise Hotel. Nossas instalações para eventos são perfeitas para casamentos, conferências e outras celebrações sociais. Com um cenário paradisíaco e uma equipe dedicada, garantimos que cada detalhe seja perfeito para você e seus convidados.
+                <br/>
+                Reserve Sua Estadia
+                Não perca a oportunidade de vivenciar momentos únicos no Sunset Paradise Hotel. Reserve agora e descubra por que somos o destino favorito de tantos viajantes em Maceió. Estamos ansiosos para recebê-lo e proporcionar uma experiência que você nunca esquecerá.</em></p><br/>
+
+        </section>
+        <section class="newsletter">
+            <form>
+                <label for="cNome">Nome:</label><br/>
+                <input type="text" id="cNome" name="nome" placeholder="Digite seu nome aqui" required/><br/>
+                
+                <label for="cEmail">E-mail:</label> <br/>
+                <input type="email" id="cEmail" name="email" placeholder="seunome@email.com" required/></br>  
+
+                <label >Senha: </label> <br/>
+                <input type="password" minlength="8" name="senha" placeholder="Sua senha aqui" required/></br>
+                
+                <label for="cTelefone">Telefone:</label><br/>
+                <input type="tel" id="cTelefone" name="Telefone" placeholder="(00)000000000" required/><br><p></p>
+
+                <label for="cLinkedin">Linkedin:</label><br/>
+                <input type="url" id="cLinkedin" name="Linkedin" placeholder="linkedin.com/in/seu-nome" required/><br><p></p>
+
+                <label for="cIdade">Idade:</label><br/>
+                <input type="number" id="cIdade" min="0" max="130" placeholder="Sua idade" required/><br>
+                
+                <p></p>
+                <label for="cDataNasc">Data de Nascimento:</label><br/>
+                <input type="date" id="cDataNasc" name="foto" min="2000-01-01" max="2024-06-12" required/><br>
+                <p></p>
+                <label for="cFoto">Sua foto:</label><br/>
+                <input type="file" id="cFoto" name="foto" accept=".jpg,.png" required/><br><br/>
+                <button class="btn btn-w100">Assinar Newsletter</button>
+                
+
+            </form>
+        </section>
+        <section class="cronograma">
+           <hr/>
+        </section>
+    </main>
+    <aside class="contato-whatsapp">
+        <a href="https://wa.me/558213321312" target="_blank">
+            <img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2018/10/logo-whatsapp-png-transparente.png?fit=1600%2C1600&ssl=1" />
+        </a>
+    </aside>
 </body>
 </html>
+
+<!-- codigo anterior -->
+<!--
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunset Paradise Hotel - Página Inicial</title>
+    <link rel="stylesheet" href="css/contato.css">
+</head>
+<body>
+    <header>
+        <h1>Sunset Paradise Hotel</h1>
+        <p>Seu refúgio à beira-mar em Maceió</p>
+        <nav class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">Sobre nós</a>
+            <a href="#">Reservas</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <div class="hotel-info">
+                <h1>Bem-vindo ao Sunset Paradise Hotel</h1>
+                <p>O Sunset Paradise Hotel oferece uma experiência única à beira-mar em Maceió, com vistas deslumbrantes, quartos confortáveis e uma hospitalidade excepcional. Localizado em uma das praias mais famosas da cidade, estamos prontos para tornar a sua estadia inesquecível.</p>
+                <p>Desfrute das nossas instalações modernas, piscina com vista para o mar, restaurante gourmet e uma equipe dedicada para atender todas as suas necessidades durante a estadia.</p>
+                <p>Reserve agora e descubra o verdadeiro paraíso em Maceió.</p>
+            </div>
+            <div class="hotel-image">
+                <figure>
+                <img src="img/Hotel_Praia.jpeg" alt="Sunset Paradise Hotel">
+                <figure>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sunset Paradise Hotel. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+-->
