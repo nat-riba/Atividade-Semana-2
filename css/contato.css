@@ -60,7 +60,7 @@ body {
 .cabecalho {
     height: 500px;
     padding: 35px 26px; /* primeiro vert e seg. hori*/
-    background: linear-gradient(0deg, #222e26, transparent), url('/Atividade-Semana-2/img/Hotel\ 3.jpg');
+    background: linear-gradient(0deg, #222e26, transparent), url('/Atividade-Semana-2/Atividade-Semana-2/img/Hotel\ 3.jpg');
     background-repeat: no-repeat;
     background-size: cover; /*forçando a imagem a ficar encaixada no espaço.*/
     opacity: 0.6;
