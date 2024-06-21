@@ -128,10 +128,9 @@ input {
 
 }
 
-.cDescricao {
-    height: 100px;
-    width: 30px;
-    box-sizing: 20%;
+textarea {
+    height: 150px;
+    width: 280px; 
 }
 
 .btn-w100 {
@@ -181,6 +180,7 @@ th {
 }
 
 footer {
+    color: #333;
     background-color: #ca924d;
     display: flex;
     height: 200px;
@@ -188,14 +188,16 @@ footer {
     padding: none;
     flex-direction: row;
     justify-content: center;
-    color: #fff;
     text-align: center;
     padding: 10px 0;
     position:flex;
-} 
+}  
 
 .container-footer img {
     height: 80px;
     opacity: 80%;
 }
-
+p { 
+    color: #333;
+    text-decoration: none;
+}
