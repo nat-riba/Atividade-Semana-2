@@ -10,7 +10,7 @@
 html {
     /*Estas propriedades são herdadas pelos elementos da pagina*/
     font-family: "Inter",sans-serif;
-    font-size: 24px;
+    font-size: 1.2rem;
     color: rgb(243, 242, 242);
 }
 
@@ -131,9 +131,6 @@ header {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.contato-whatsapp:hover{
-    filter:invert(1);
-}
 
 footer {
     background-color: #333;
