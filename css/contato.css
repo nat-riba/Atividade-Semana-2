@@ -46,10 +46,11 @@ html {
 }
 .nav-links a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .nav-links :hover {
+    color:#e2de00;
     color: #ff9a63;
 }
 
@@ -173,6 +174,26 @@ th {
     filter:invert(1);
 }
 
+footer {
+    background-color: #ca924d;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding: none;
+    flex-direction: row;
+    justify-content: center;
+    
+    /*background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position:;
+    bottom: 0;
+    width: 30px%;*/
+} 
+.container-footer img {
+    height: 80px;
+}
 
 
 
