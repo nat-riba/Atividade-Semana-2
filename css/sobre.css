@@ -8,7 +8,7 @@
 }
 
 html {
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 1.2rem;
 }
 
@@ -22,7 +22,7 @@ body {
     height: 140px;
     justify-content: center;
     padding: 15px;
-    
+
 }
 
 .navbar img {
@@ -43,6 +43,7 @@ body {
     padding: 30px;
     color: rgb(255, 241, 212);
 }
+
 .nav-links a {
     text-decoration: none;
     color: white;
@@ -55,8 +56,8 @@ body {
 .sobre-detalhes {
     width: 100%;
     display: flex;
-   flex-direction: row;
-   justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .sobre-detalhes img {
@@ -71,13 +72,13 @@ body {
     text-align: center;
 }
 
-.sobre-diferencial h2{
+.sobre-diferencial h2 {
     font-size: 1.5rem;
     padding: 8px 0;
     margin: 12px 0;
 }
 
-.sobre-diferencial p{
+.sobre-diferencial p {
     font-size: 1rem;
     margin: 20px 20px;
     text-align: center;
@@ -91,30 +92,30 @@ body {
     color: #121212;
 }
 
-.btn{
+.btn {
     background-color: #121212cc;
     border: 4px solid #121212cc;
     color: #ffffff;
     border-radius: 8px;
     padding: 16px 32px;
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Inter", sans-serif;
     margin: 6px 0;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .btn:hover {
-    background-color: #ffffff; 
+    background-color: #ffffff;
     border: 4px solid #ffffff;
     color: #121212;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.container{
+.container {
     display: flex;
     height: 500px;
-    padding: 35px 26px; 
+    padding: 35px 26px;
     background: linear-gradient(0deg, #ff9a63b0, transparent), url("../img/img5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,28 +124,29 @@ body {
 }
 
 #comentarios {
-    width: 28vw; 
-    background-color:  #71c697a6;
+    width: 28vw;
+    background-color: #71c697a6;
     padding: 20px;
     text-align: center;
     box-shadow: 10px 10px 5px rgba(243, 214, 118, 0.445);
 }
 
 
-#comentarios p{
+#comentarios p {
     font-style: italic;
     font-size: 0.8rem;
     margin: 20px 10px;
 }
-.avaliacoes{
-    width: 28vw; 
+
+.avaliacoes {
+    width: 28vw;
     padding: 30px 20px;
     text-align: center;
-    background-color:  #71c697a6;
+    background-color: #71c697a6;
     box-shadow: 10px 10px 5px rgba(243, 214, 118, 0.445);
 }
 
-.avaliacoes h4{
+.avaliacoes h4 {
     padding: 6px;
 }
 
@@ -153,8 +155,32 @@ body {
 }
 
 .avaliacoes li {
-    
+
     list-style-type: none;
+}
+
+.contato-whatsapp {
+    width: 180px;
+    height: 40px;
+    background-color: rgb(224, 50, 50);
+    border-radius: 5px;
+    padding: 6px;
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.contato-whatsapp:hover {
+    background-color: #ffffff;
+    border: 4px solid #ffffff;
+    color: #121212;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer {
@@ -168,11 +194,13 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position:flex;
+    position: flex;
     text-decoration: none;
-} 
+}
 
 .container-footer img {
     height: 80px;
 }
 
+
+@media screen {}
