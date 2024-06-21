@@ -63,7 +63,7 @@ body {
     background: linear-gradient(0deg, #222e26, transparent), url('/Atividade-Semana-2/img/Hotel\ 3.jpg');
     background-repeat: no-repeat;
     background-size: cover; /*forçando a imagem a ficar encaixada no espaço.*/
-    opacity: 0.7;
+    opacity: 0.6;
 }
 .titulo {
     font-size: 2.5rem; 
@@ -73,39 +73,86 @@ body {
 .descricao { 
     font-style: italic;
     font-size: 1.4rem;
+    color: #fbfcf5;
 }
 
 .btn {
-    background-color: transparent;
-    border: solid white;
-    color: white;
+    background-color: #121212cc;
+    border: 4px solid #121212cc;
+    color: #ffffff;
     border-radius: 8px;
-    padding: 2px 2px;
+    padding: 16px 32px;
     font-size: 1rem;
-    font-family: "Inter", sans-serif;
-    margin: 1%;
-    align-items: center;
-    cursor:pointer;
-    /* pequenas animações ao mudar o valor de uma propriedade*/
-    transition: background-color 0.9s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6px 0;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .btn img {
     height: 100px; 
 }
 
+
 .contato-texto {
+    color: #333;
+    text-decoration: none;
     width: 1000px;
     margin: auto;
     padding: 30px;
     text-align: left;
     background-color: #c4b878;
     color: #121212;
-    border-color: #121212;
-    
+    border-color: #121212;   
+}
+.contato-texto p {
+    font-style: italic;
+ 
+
 }
 
-/*:hover => aplica uma pseudo classe um estilo quando o mause passa sobre o botão*/
+.servicos a {
+    text-decoration: none;
+    color: #686214;
+    cursor:pointer;
+    margin: 3px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display:list-item;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: #fbfcf5;
+
+
+}
+h3 {
+    color: #272727;
+    text-decoration: none;
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+    
+}
+h4 {
+    color: #333;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+
+h5 {
+    color: #333;
+    padding: 5px;
+    margin-top: 18px;
+    margin-bottom: 35px;
+    font-size: 2rem;
+    text-align: center;
+
+
+}
+
 
 .btn:hover {
     background-color: white;
