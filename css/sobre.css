@@ -127,7 +127,9 @@ body {
     background-color:  #71c697a6;
     padding: 20px;
     text-align: center;
+    box-shadow: 10px 10px 5px rgba(243, 214, 118, 0.445);
 }
+
 
 #comentarios p{
     font-style: italic;
@@ -136,17 +138,41 @@ body {
 }
 .avaliacoes{
     width: 28vw; 
+    padding: 30px 20px;
     text-align: center;
-    text-decoration: none;
     background-color:  #71c697a6;
+    box-shadow: 10px 10px 5px rgba(243, 214, 118, 0.445);
+}
+
+.avaliacoes h4{
+    padding: 6px;
+}
+
+.avaliacoes ul {
+    padding: 30px 0;
+}
+
+.avaliacoes li {
+    
+    list-style-type: none;
 }
 
 footer {
-    background-color: #333;
+    background-color: #ca924d;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    padding: none;
+    flex-direction: row;
+    justify-content: center;
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position:flex;
+    text-decoration: none;
+} 
+
+.container-footer img {
+    height: 80px;
 }
+
