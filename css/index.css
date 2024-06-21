@@ -121,6 +121,7 @@ header {
 }
 .contato-whatsapp img{
     width: 100%;
+    position: relative;
 }
 
 .contato-whatsapp:hover{
@@ -132,8 +133,32 @@ footer {
     font-size: medium;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
+    padding: 16px 0;
     bottom: 0;
     width: 100%;
 }
+
+@media screen {
+
+(max-width: 480px) 
+    /* - trocar a navbar de row para column */
+    /* - redefinir a altura da navbar */
+    /* - alinhar os elementos */
+
+}
+    .navbar 
+        flex-direction: column;
+        height: auto; /* vai se ajustar ao tamanho dos elementos na navbar */
+        align-items: center; /* alinha horizontalmente */
+        gap: 12px;
+    
+
+    /* - ajustar a largura da imagem */
+    .navbar img
+        width: 156px; 
+    
+
+    /* - row p/ column */
+    .nav-links 
+        flex-direction: column;
+    
