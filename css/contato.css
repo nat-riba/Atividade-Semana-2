@@ -128,6 +128,12 @@ input {
 
 }
 
+.cDescricao {
+    height: 100px;
+    width: 30px;
+    box-sizing: 20%;
+}
+
 .btn-w100 {
     width: 100%;
 }
@@ -190,5 +196,6 @@ footer {
 
 .container-footer img {
     height: 80px;
+    opacity: 80%;
 }
 
