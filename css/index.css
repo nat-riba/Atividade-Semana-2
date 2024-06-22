@@ -8,15 +8,9 @@
 
 html {
     /*Estas propriedades são herdadas pelos elementos da pagina*/
-<<<<<<< HEAD
     font-family:initial;
     font-size: 24px;
     color: #080a0b;
-=======
-    font-family: "Inter",sans-serif;
-    font-size: 1.2rem;
-    color: rgb(243, 242, 242);
->>>>>>> 0006649d91663c7a5c5446a9c755cfea8187ad2a
 }
 
 /*tornando o container flexivel*/
@@ -147,19 +141,12 @@ td, th {
     position: fixed;
     right: 16px;
     bottom: 16px;
-<<<<<<< HEAD
-
-}
-.contato-whatsapp img{
-    width: 100%;
-=======
     display: flex;
     justify-content: center;
     font-family: "Inter", sans-serif;
     transition: 0.4s;
     cursor: pointer;
     font-size: 1.2rem;
->>>>>>> 0006649d91663c7a5c5446a9c755cfea8187ad2a
 }
 
 .contato-whatsapp:hover {
